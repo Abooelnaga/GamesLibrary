@@ -74,13 +74,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // وظيفة تصفية الألعاب حسب التصنيف
     function filterGamesByCategory(category) {
+        let visibleCount = 0;
         gameCards.forEach(card => {
             if (category === 'all' || card.getAttribute('data-category') === category) {
                 card.style.display = 'flex';
+                visibleCount++;
             } else {
                 card.style.display = 'none';
             }
         });
+
+        // تحديث عداد الألعاب المرئية
+        const gameCounter = document.getElementById('game-counter');
+        if (gameCounter) {
+            gameCounter.textContent = visibleCount;
+        }
+    }
+
+    // تهيئة عداد الألعاب عند تحميل الصفحة
+    if (document.getElementById('game-counter')) {
+        filterGamesByCategory('all');
     }
 
     // إضافة مستمعي الأحداث لأزرار التصنيف
