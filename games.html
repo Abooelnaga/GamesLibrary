@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتبة الألعاب</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-gamepad"></i>
+                <span>مكتبة الألعاب</span>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" id="nav-home">الرئيسية</a></li>
+                <li><a href="games.html" id="nav-games" class="active">الألعاب</a></li>
+                <li><a href="about.html" id="nav-about">عن المكتبة</a></li>
+                <li><a href="contact.html" id="nav-contact">اتصل بنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- قسم التصنيفات -->
+    <div class="categories-section">
+        <div class="container">
+            <h2 class="categories-title">تصنيفات الألعاب</h2>
+            <div class="categories-container">
+                <button class="category-btn active" data-category="all"><i class="fas fa-gamepad"></i> جميع
+                    الألعاب</button>
+                <button class="category-btn" data-category="puzzle"><i class="fas fa-puzzle-piece"></i> ألعاب
+                    الذكاء</button>
+                <button class="category-btn" data-category="arcade"><i class="fas fa-joystick"></i> ألعاب
+                    الأركيد</button>
+                <button class="category-btn" data-category="strategy"><i class="fas fa-chess"></i> ألعاب
+                    الإستراتيجية</button>
+                <button class="category-btn" data-category="skill"><i class="fas fa-trophy"></i> ألعاب المهارات</button>
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="games-grid">
+            <div class="game-card" data-game="01-Candy-Crush" data-category="puzzle">
+                <div class="game-icon"><i class="fas fa-candy-cane"></i></div>
+                <h3>Candy Crush</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/01-Candy-Crush.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="02-Archery" data-category="skill">
+                <div class="game-icon"><i class="fas fa-bullseye"></i></div>
+                <h3>Archery</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/02-Archery.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="03-Breakout" data-category="arcade">
+                <div class="game-icon"><i class="fas fa-cubes"></i></div>
+                <h3>Breakout</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/03-Breakout.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="04-Tower-Blocks" data-category="skill">
+                <div class="game-icon"><i class="fas fa-tower-observation"></i></div>
+                <h3>Tower Blocks</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/04-Tower-Blocks.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="05-Tetris" data-category="arcade">
+                <div class="game-icon"><i class="fas fa-shapes"></i></div>
+                <h3>Tetris</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/05-Tetris.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="06-Tilting-Maze" data-category="puzzle">
+                <div class="game-icon"><i class="fas fa-route"></i></div>
+                <h3>Tilting Maze</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/06-Tilting-Maze.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="07-Memory-Card" data-category="puzzle">
+                <div class="game-icon"><i class="fas fa-memory"></i></div>
+                <h3>Memory Card (V1)</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/07-Memory-Card.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="20-Card-Memory(2)" data-category="puzzle">
+                <div class="game-icon"><i class="fas fa-memory"></i></div>
+                <h3>Memory Card (V2)</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/20-Card-Memory(2).zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="08-XO" data-category="strategy">
+                <div class="game-icon"><i class="fas fa-hashtag"></i></div>
+                <h3>XO (Tic Tac Toe) V1</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/08-XO.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="09-Snake" data-category="arcade">
+                <div class="game-icon"><i class="fas fa-dragon"></i></div>
+                <h3>Snake (V1)</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/09-Snake.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="23-Snake(2)" data-category="arcade">
+                <div class="game-icon"><i class="fas fa-dragon"></i></div>
+                <h3>Snake (V2)</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/23-Snake(2).zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="10-Whack-A-Mole" data-category="arcade">
+                <div class="game-icon"><i class="fas fa-gavel"></i></div>
+                <h3>Whack A Mole</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/10-Whack-A-Mole.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="11-Fruit-Slicer" data-category="skill">
+                <div class="game-icon"><i class="fas fa-apple-alt"></i></div>
+                <h3>Fruit Slicer</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/11-Fruit-Slicer.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="19-Ping-Pong" data-category="skill">
+                <div class="game-icon"><i class="fas fa-table-tennis"></i></div>
+                <h3>Ping Pong</h3>
+                <div class="game-actions">
+                    <a href="https://abooelnaga.github.io/Games/19-Ping-Pong/" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/19-Ping-Pong.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+
+            <div class="game-card" data-game="12-2048" data-category="puzzle">
+                <div class="game-icon"><i class="fas fa-calculator"></i></div>
+                <h3>2048</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/12-2048.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="17-Maze" data-category="puzzle">
+                <div class="game-icon"><i class="fas fa-route"></i></div>
+                <h3>Maze</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/17-Maze.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="18-Minesweeper" data-category="puzzle">
+                <div class="game-icon"><i class="fas fa-bomb"></i></div>
+                <h3>Minesweeper</h3>
+                <div class="game-actions">
+                    <a href="https://abooelnaga.github.io/Games/18-Minesweeper/" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/18-Minesweeper.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+
+            <div class="game-card" data-game="13-Crossy-Road" data-category="arcade">
+                <div class="game-icon"><i class="fas fa-road"></i></div>
+                <h3>Crossy Road</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/13-Crossy-Road.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="16-Flappy-Bird" data-category="arcade">
+                <div class="game-icon"><i class="fas fa-dove"></i></div>
+                <h3>Flappy Bird</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/16-Flappy-Bird.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="24-Flappy-Monster" data-category="arcade">
+                <div class="game-icon"><i class="fas fa-dove"></i></div>
+                <h3>Flappy Monster</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/24-Flappy-Monster.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="15-XO(2)" data-category="strategy">
+                <div class="game-icon"><i class="fas fa-hashtag"></i></div>
+                <h3>XO (Tic Tac Toe) V2</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/15-XO(2).zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+            <div class="game-card" data-game="22-XO(3)" data-category="strategy">
+                <div class="game-icon"><i class="fas fa-hashtag"></i></div>
+                <h3>XO (Tic Tac Toe) V3</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/22-XO(3).zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="14-Rock-Paper-Scissors" data-category="strategy">
+                <div class="game-icon"><i class="fas fa-hand-scissors"></i></div>
+                <h3>حجرة ورقة مقص (V1)</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/14-Rock-Paper-Scissors.zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+
+            <div class="game-card" data-game="21-Rock-Paper-Scissors(2)" data-category="strategy">
+                <div class="game-icon"><i class="fas fa-hand-scissors"></i></div>
+                <h3>حجرة ورقة مقص (V2)</h3>
+                <div class="game-actions">
+                    <a href="#" class="btn demo-btn">مشاهدة حية</a>
+                    <a href="download/21-Rock-Paper-Scissors(2).zip" download class="btn download-btn">تحميل الكود</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="game-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-game-title"></h2>
+            <div class="game-container">
+                <iframe id="game-frame" src="" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>جميع الحقوق محفوظة &copy; 2023 Aboelnaga</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/moo.naga" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/Abooelnaga/" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://t.me/moonaga" target="_blank"><i class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" title="العودة إلى الأعلى"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
