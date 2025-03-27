@@ -35,4 +35,7 @@
 - Instagram: [@moo.naga](https://www.instagram.com/moo.naga)
 
 ## الترخيص
+هذا المشروع مرخص تحت رخصة MIT - انظر ملف [LICENSE](LICENSE) للتفاصيل.
+
+## الترخيص
 جميع الحقوق محفوظة © 2023 Aboelnaga
